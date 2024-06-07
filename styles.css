@@ -1,0 +1,142 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Weng-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: #f5ece5;
+  font-size: 15px;
+  color: var(--Weng-Brown);
+}
+
+.nut-meg-font {
+  color: var(--Nutmeg);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #e0e0e0;
+  height: auto;
+}
+
+.bg-light-pink {
+  background-color: var(--Rose-White);
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.prep {
+  color: var(--Nutmeg);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.prep-time {
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul,
+ol {
+  font-size: 1rem;
+}
+
+.table {
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  border-top: none;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bottom-border,
+tr {
+  border-bottom: 1px solid var(--Light-Grey);
+}
+
+tr td:last-child {
+  font-weight: 600;
+  color: var(--Nutmeg);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .my-5 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+
+  .p-4 {
+    padding: 0 !important;
+  }
+
+  .card {
+    border-radius: 0;
+  }
+
+  .card-img,
+  .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+}
